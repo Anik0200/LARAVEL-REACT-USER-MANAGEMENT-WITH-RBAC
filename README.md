@@ -39,19 +39,17 @@ A full-stack admin dashboard built with Laravel API and React.js (CoreUI), featu
 - Spatie Laravel-Permission
 
 
----
-
-Project Setup & Installation
+### Project Setup & Installation
 
 1. Clone the Repository
 
+```
 git clone https://github.com/Anik0200/LARAVEL-REACT-USER-MANAGEMENT-WITH-RBAC.git
-
-
----
+```
 
 2. Backend Setup (Laravel API)
 
+```
 cd backend
 composer install
 cp .env.example .env (No Need To Change .env File)
@@ -61,17 +59,17 @@ php artisan migrate:fresh
 php artisan db:seed
 php artisan storage:link
 php artisan serve
+```
 
-
----
 3. Frontend Setup (React Admin Panel)
 
+```
 cd dashboard
 npm install
 npm run start
----
+```
 
-Credentials
+Credentials:
 
 Admin
 Email: anik@gmail.com
