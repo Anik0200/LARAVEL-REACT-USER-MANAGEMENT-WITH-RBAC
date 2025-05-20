@@ -1,4 +1,4 @@
-Laravel React Admin Dashboard with RBAC
+A full-stack admin dashboard built with Laravel API and React.js (CoreUI), featuring authentication, role-based access control (RBAC), user management, and blog management with pagination.
 
 
 ## Features
@@ -55,13 +55,8 @@ git clone https://github.com/Anik0200/LARAVEL-REACT-USER-MANAGEMENT-WITH-RBAC.gi
 cd backend
 composer install
 cp .env.example .env (No Need To Change .env File)
+
 php artisan key:generate
-
-
-
-Import the database using the included database.sql file located in the root directory
-
-
 php artisan migrate:fresh
 php artisan db:seed
 php artisan storage:link
@@ -69,23 +64,16 @@ php artisan serve
 
 
 ---
-
 3. Frontend Setup (React Admin Panel)
 
 cd dashboard
 npm install
 npm run start
-
-Update API base URL inside your Api.js (e.g., http://127.0.0.1:8000/api)
-
 ---
 
-Credentials (optional)
-
-If you’ve seeded demo users:
+Credentials
 
 Admin
 Email: anik@gmail.com
 Password: 12345678
 
----
